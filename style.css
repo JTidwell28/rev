@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1, .section2, .section3, .section4{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section1{
+    background-image: url(images/Red-Bull-Logo-Desktop-Wallpaper.jpeg)
+}
+
+.section2{
+    background-image: url(images/red-bull-racing-rb18-1.jpeg);
+    background-attachment: fixed;
+}
+
+.section3{
+    background-image: url(images/sergio-perez-red-bull-racing-a.jpeg);
+}
+
+.section4{
+    background-image: url(images/racefansdotnet-21-07-04-15-27-28-6.jpeg);
+}
