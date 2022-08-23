@@ -47,10 +47,6 @@ nav li{
     background-attachment: fixed;
 }
 
-.section3{
-    background-image: url(images/sergio-perez-red-bull-racing-a.jpeg);
-}
-
 .section4{
     background-image: url(images/racefansdotnet-21-07-04-15-27-28-6.jpeg);
     background-attachment: fixed;
@@ -106,7 +102,45 @@ nav li{
     left: 60%;
     padding: 20px;
 }
+.section3{
+    background-image: url(images/sergio-perez-red-bull-racing-a.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.section3 h1 {
+    text-align: center;
+    color: white;
+}
+
+.section3 p {
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.section3 input{
+    height: 30px;
+    border-color: transparent;
+    color: blue;
+}
+
+.section3 input::placeholder {
+    text-align: center;
+    color:rgba(84, 91, 98, 0.801);
+    font-style: italic;
+}
+
+#button{
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    padding: 10px;
+    border: transparent;
+
+}
 
 
 
