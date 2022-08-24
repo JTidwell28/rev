@@ -20,6 +20,25 @@ function sentences(verb , adjective , adverb , person , place) {
 
 }
 
+// Second Game
+
+var a = [1,2,4,9]
+
+var arr = [
+    {
+        word: "Max",
+        hint: "1x Wordl champion"
+    },
+    {
+        word: "Lewis",
+        hint: "7x World Champion"
+    },
+    {
+        word: "COTA"
+        hint: "F1 track in America"
+    },
+]
+
 
 
 
