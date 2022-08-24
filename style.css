@@ -112,7 +112,7 @@ nav li{
 
 .section3 h1 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .section3 p {
@@ -139,7 +139,12 @@ nav li{
     font-size: 18px;
     padding: 10px;
     border: transparent;
+    
+}
 
+#sentence{
+    width: 80%;
+    color: white;
 }
 
 
