@@ -48,7 +48,9 @@ document.getElementById("word").innerHTML = word;
 document.getElementById("hint").innerHTML = hint;
 var w = document.getElementById("word");
 var correct = []
-var counter = word.length + 2
+var counter = word.length + 2;
+
+document.getElementById("wrong").innerHTML = counter
 
 var splitWord = word.split("");
 var emptySplitword = [];
@@ -69,6 +71,7 @@ function enterLetter() {
             emptySplitword[x] = letter;
             w.innerHTML = emptySplitword.join(" ")
             document.getElementById("letter").value
+            correct.push(1);
         }else {
             document.getElementById("letter").value = "";
         }
@@ -76,8 +79,14 @@ function enterLetter() {
 
 
     if (correct.length == emptySplitword.length) {
-        alert("die")
-    } else if 
+        alert("END")
+    } else if (counter > 1){
+        counter -= 1;
+        document.getElementById("wrong").innerHTML = counter
+    }else if (counter == 1){
+        alert("You lose")
+    }
+        
 }
 
 
